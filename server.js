@@ -8,7 +8,8 @@ const app = express();
 const PORT = 5000;
 
 // MongoDB connection
-mongoose.connect("mongodb://localhost:27017/pokemonApp", {
+// mongoose.connect("mongodb://localhost:27017/pokemonApp", {
+mongoose.connect("mongodb+srv://chaitanya:CvipKmlZMam0XrUg@cluster0.3nhex46.mongodb.net/pokemonApp?retryWrites=true&w=majority&appName=Cluster0", {
   useNewUrlParser: true,
   useUnifiedTopology: true,
 });
