@@ -1,5 +1,5 @@
-const API_URL = "http://localhost:5000/api";
-
+// const API_URL = "http://localhost:5000/api";
+const API_URL="https://pokemonproject-10.onrender.com";
 // DOM Elements
 const loginSection = document.getElementById("login-section");
 const appSection = document.getElementById("app");
